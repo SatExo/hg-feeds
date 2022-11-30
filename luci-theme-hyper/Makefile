@@ -8,8 +8,8 @@ include $(TOPDIR)/rules.mk
 
 LUCI_TITLE:=Hyper Theme
 LUCI_DEPENDS:=+curl +jsonfilter
-PKG_VERSION:=1.1
-PKG_RELEASE:=20220505
+PKG_VERSION:=0.1
+PKG_RELEASE:=20221130
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
